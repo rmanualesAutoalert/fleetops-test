@@ -6,11 +6,11 @@ import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Spinner } from '@/components/ui/spinner';
 /* @chisel-passkeys */
+import PasskeyVerify from '@/components/PasskeyVerify.vue';
 import {
     index as confirmOptions,
     store as confirmStore,
 } from '@/actions/Laravel/Passkeys/Http/Controllers/PasskeyConfirmationController';
-import PasskeyVerify from '@/components/PasskeyVerify.vue';
 /* @end-chisel-passkeys */
 import { store } from '@/routes/password/confirm';
 
